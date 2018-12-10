@@ -28,11 +28,11 @@ public class LoginPresenterPresenter implements ILoginPresenterOps, IPresenterCa
 
     @Override
     public void onLoginSuccess(String message) {
-        iViewCallBack.LoginSuccessed(message);
+        iViewCallBack.loginSuccessed(message);
     }
 
     @Override
     public void onLoginFailed(String message) {
-        iViewCallBack.LoginFailed(message);
+        iViewCallBack.loginFailed(message);
     }
 }
